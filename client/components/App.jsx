@@ -1,35 +1,29 @@
 import React, { useState, useEffect } from 'react'
-import { getGreeting } from '../apiClient'
+// import { getGreeting } from '../apiClient'
+import { Routes, Route } from 'react-router-dom'
+
+import Header from './Header'
+import Home from './Home'
+import Mentaltraining from './Mentaltraining'
+import About from './About'
+import Kontakt from './Kontakt'
+import Infos from './Infos'
+import Footer from './Footer'
 
 const App = () => {
-  const [greeting, setGreeting] = useState('')
-  const [count, setCount] = useState(0)
-  const [isError, setIsError] = useState(false)
 
-  useEffect(() => {
-    getGreeting()
-      .then((greeting) => {
-        console.log(greeting)
-        setGreeting(greeting)
-        setIsError(false)
-        return null
-      })
-      .catch((err) => {
-        console.log(err)
-        setIsError(true)
-      })
-  }, [count])
 
   return (
     <>
-      {count}
-      <h1>{greeting}</h1>
-      {isError && (
-        <p style={{ color: 'red' }}>
-          There was an error retrieving the greeting.
-        </p>
-      )}
-      <button onClick={() => setCount(count + 1)}>Click</button>
+      <Header />
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/mentaltraining' element={<Mentaltraining />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/kontakt' element={<Kontakt />} />
+          <Route path='/infos' element={<Infos />} />
+        </Routes>
+      <Footer />
     </>
   )
 }
