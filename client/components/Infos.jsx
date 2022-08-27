@@ -5,8 +5,10 @@ import Nav from './Nav'
 function Infos(){
   return (
     <>
-    <Nav />
-    <p>Hello</p>
+      <Nav />
+      <div className="hero">
+		    <img src = "./images/wasser03.jpeg" className="hero-img"></img>
+	    </div>
     </>
   )
 }
