@@ -1,8 +1,13 @@
 import React from 'react'
 
+import Nav from './Nav'
+
 function Infos(){
   return (
-    <p>infos</p>
+    <>
+    <Nav />
+    <p>Hello</p>
+    </>
   )
 }
 

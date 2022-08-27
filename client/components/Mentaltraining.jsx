@@ -1,8 +1,13 @@
 import React from 'react'
 
+import Nav from './Nav'
+
 function Mentaltraining(){
   return (
-    <p>training</p>
+    <>
+    <Nav />
+    <p>Hello</p>
+    </>
   )
 }
 
