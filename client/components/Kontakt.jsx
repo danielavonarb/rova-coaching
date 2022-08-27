@@ -1,8 +1,13 @@
 import React from 'react'
 
+import Nav from './Nav'
+
 function Kontakt(){
   return (
-    <p>kontakt</p>
+    <>
+    <Nav />
+    <p>Hello</p>
+    </>
   )
 }
 
