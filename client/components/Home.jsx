@@ -7,7 +7,9 @@ function Home(){
     <body id="body-home">
       <div className="hero">
         <h1 className="hero-title">Mutig und gelassen durchs Leben - ich helfe dir dabei</h1>
-		    <img src = "./images/home.jpg" className="hero-img"></img>
+      </div>
+      <div className="hero-img">
+		    <img className="image" src = "./images/home-pano02.jpg"></img>
 	    </div>
       <Nav />
     </body>
