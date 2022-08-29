@@ -12,7 +12,7 @@ body{
     display:grid;
     overflow: scroll;
     grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
-    grid-template-rows: auto auto auto 330px;
+    grid-template-rows: auto auto auto 25vh;
     height: 100vh;
     grid-template-areas: 
     '. header header header header .'
@@ -29,7 +29,7 @@ body{
   align-items: flex-end;
 }
 
-header::after{
+.header::after{
   content: '';
   border-bottom: rgb(148,172,182) solid 2px;
   position: absolute;
@@ -47,9 +47,10 @@ header::after{
 }
 
 .header-info{
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: smaller;
-  color: rgb(195,197,200);
+  font-weight: 500;
+  color: rgb(188,189,193);
   display: flex;
   align-items: flex-end;
  
@@ -69,13 +70,14 @@ p{
 .hero-img{
   grid-area: hero-img;
   margin-bottom: 10px;
-  background-size:cover;
-  background-repeat: no-repeat;
+  /* background-size:cover;
+  background-repeat: no-repeat; */
 }
 
-.image{
+#image{
   width: 100%;
   max-height: 50vh;
+  background-image: url('./images/home-pano.jpg');
 }
 
 .hero-title{
@@ -83,7 +85,7 @@ p{
   font-size: 3rem;
   font-weight: 500; 
   padding: 0;
-  color: rgb(195,197,200);
+  color: rgb(188,189,193);
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -138,46 +140,37 @@ p{
   font-size: 2.5rem;
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 1000px) {
 
   #body-home{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
     grid-template-rows: auto auto auto auto auto;
     height: 100vh;
     grid-template-areas: 
-    'header header'
-    'hero hero'
-    'hero-img hero-img'
-    'nav nav'
-    'nav nav';  
+    '. header header .'
+    '. hero hero .'
+    '. hero-img hero-img .'
+    '. nav nav .';  
 }
 
-  header{
-    margin-left: 40px;
-    margin-right: 40px;
-    border: red solid 2px;
-
+  .header{
+    grid-area: header;
+    height: fit-content;
   }
   
-  header::after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 85%;
-    right: 0%;
-  
+  .header::after{
+    width: 90%;
   }
   
   #logo{
-    width: auto;
     height: 10vh; 
-    z-index: 1000;
-    margin-bottom: -15px;
+    margin-bottom: -10px;
   }
   
   .header-info{
     font-size: 0.8rem;
+    font-weight: 500; 
   }
   
   p{
@@ -186,50 +179,474 @@ p{
   
   .hero{
     grid-area: hero;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 0px;
-    border: blue solid 2px;
+    margin-top: 10px;
+    height: fit-content;
   
   }
   
   .hero-img{
     grid-area: hero-img;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    border: green solid 2px;
+    margin-bottom: 10px;
+    height: 34vh;
   }
   
-  .image{
-    max-width: 100%;
-    max-height: 30vh;
+  #image{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/home-pano02.jpg');
+    background-size: cover;
+    background-position: center;
   }
   
   .hero-title{
-    font-size: 2rem;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    border: orange solid 2px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   .nav{
     grid-area: nav;
-    margin-left: 40px;
-    margin-right: 40px;
-    border: pink solid 2px;
   }
   
   .nav__list{
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 248px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25vh;
+    grid-template-areas: 
+    'training about kontakt infos';
   }
   
+
+  #training{
+    grid-area: training;
+    width: 100%;
+  }
+  
+  #about{
+    grid-area: about;
+    width: 100%;
+  }
+  
+  #kontakt{
+    grid-area: kontakt;
+    width: 100%;
+  }
+  
+  #infos{
+    grid-area: infos;
+    width: 100%;
+  }
+
+  .nav__link{
+    font-size: 1.7rem;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  #body-home{
+    display:grid;
+    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+    grid-template-rows: auto auto auto auto auto;
+    height: 100vh;
+    grid-template-areas: 
+    '. header header .'
+    '. hero hero .'
+    '. hero-img hero-img .'
+    '. nav nav .';  
+}
+
+  .header{
+    grid-area: header;
+    height: fit-content;
+  }
+  
+  .header::after{
+    width: 85%;
+  }
+  
+  #logo{
+    height: 9vh; 
+    margin-bottom: -10px;
+  }
+  
+  .header-info{
+    font-size: 0.6rem;
+    font-weight: 500; 
+  }
+  
+  p{
+    margin-bottom: 5px;
+  }
+  
+  .hero{
+    grid-area: hero;
+    margin-top: 10px;
+    height: fit-content;
+  
+  }
+  
+  .hero-img{
+    grid-area: hero-img;
+    margin-bottom: 10px;
+    height: 34vh;
+  }
+  
+  #image{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/home-pano02.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .nav{
+    grid-area: nav;
+  }
+  
+  .nav__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh;
+    grid-template-areas: 
+    'training about'
+    'kontakt infos'; 
+  }
+  
+
+  #training{
+    grid-area: training;
+    width: 100%;
+  }
+  
+  #about{
+    grid-area: about;
+    width: 100%;
+  }
+  
+  #kontakt{
+    grid-area: kontakt;
+    width: 100%;
+  }
+  
+  #infos{
+    grid-area: infos;
+    width: 100%;
+  }
+
   .nav__link{
     font-size: 1.8rem;
   }
 
+}
 
-} */
+
+@media (max-width: 600px) {
+
+  #body-home{
+    display:grid;
+    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+    grid-template-rows: auto auto auto auto auto;
+    height: 100vh;
+    grid-template-areas: 
+    '. header header .'
+    '. hero hero .'
+    '. hero-img hero-img .'
+    '. nav nav .';  
+}
+
+  .header{
+    grid-area: header;
+    height: fit-content;
+  }
+  
+  .header::after{
+    width: 85%;
+  }
+  
+  #logo{
+    height: 9vh; 
+    margin-bottom: -10px;
+  }
+  
+  .header-info{
+    font-size: 0.6rem;
+    font-weight: 500; 
+  }
+  
+  p{
+    margin-bottom: 5px;
+  }
+  
+  .hero{
+    grid-area: hero;
+    margin-top: 10px;
+    height: fit-content;
+  
+  }
+  
+  .hero-img{
+    grid-area: hero-img;
+    margin-bottom: 10px;
+    height: 34vh;
+  }
+  
+  #image{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/IMG_4906.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .nav{
+    grid-area: nav;
+  }
+  
+  .nav__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh;
+    grid-template-areas: 
+    'training about'
+    'kontakt infos'; 
+  }
+  
+
+  #training{
+    grid-area: training;
+    width: 100%;
+  }
+  
+  #about{
+    grid-area: about;
+    width: 100%;
+  }
+  
+  #kontakt{
+    grid-area: kontakt;
+    width: 100%;
+  }
+  
+  #infos{
+    grid-area: infos;
+    width: 100%;
+  }
+
+  .nav__link{
+    font-size: 1.8rem;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  #body-home{
+    display:grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: auto auto auto auto auto;
+    height: 100vh;
+    grid-template-areas: 
+    '. header .'
+    '. hero .'
+    '. hero-img .'
+    '. nav .';  
+}
+
+  .header{
+    grid-area: header;
+    height: fit-content;
+  }
+  
+  .header::after{
+    width: 82%;
+  }
+  
+  #logo{
+    height: 8vh; 
+    margin-bottom: -8px;
+  }
+  
+  .header-info{
+    font-size: 0.6rem;
+    font-weight: 500; 
+  }
+  
+  p{
+    margin-bottom: 5px;
+  }
+  
+  .hero{
+    grid-area: hero;
+    margin-top: 10px;
+    height: fit-content;
+    }
+  
+    .hero-img{
+      grid-area: hero-img;
+      margin-bottom: 10px;
+      height: 34vh;
+    }
+    
+    #image{
+      min-width: 100%;
+      min-height: 100%;
+      background-image: url('./images/IMG_4906.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  
+  .hero-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .nav{
+    grid-area: nav;
+  }
+  
+  .nav__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 18vh 18vh;
+    grid-template-areas: 
+    'training about'
+    'kontakt infos'; 
+  }
+  
+  #training{
+    grid-area: training;
+  }
+  
+  #about{
+    grid-area: about;
+  }
+  
+  #kontakt{
+    grid-area: kontakt;
+  }
+  
+  #infos{
+    grid-area: infos;
+  }
+
+  .nav__link{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  #body-home{
+    display:grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: auto auto auto auto auto;
+    height: 100vh;
+    grid-template-areas: 
+    '. header .'
+    '. hero .'
+    '. hero-img .'
+    '. nav .';  
+}
+
+  .header{
+    grid-area: header;
+    height: fit-content;
+  }
+  
+  .header::after{
+    width: 83%;  
+  }
+  
+  #logo{
+    height: 8vh; 
+    margin-bottom: -8px;
+  }
+  
+  .header-info{
+    font-size: 0.5rem;
+    font-weight: 500; 
+  }
+  
+  p{
+    margin-bottom: 5px;
+  }
+  
+  .hero{
+    grid-area: hero;
+    margin-top: 10px;
+    height: fit-content;
+  
+  }
+  
+  .hero-img{
+    grid-area: hero-img;
+    margin-bottom: 10px;
+    height: 38vh;
+  }
+  
+  #image{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/IMG_4906.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-title{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .nav{
+    grid-area: nav;
+  }
+  
+  .nav__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 18vh 18vh;
+    grid-template-areas: 
+    'training about'
+    'kontakt infos'; 
+  }
+  
+
+  #training{
+    grid-area: training;
+  }
+  
+  #about{
+    grid-area: about;
+  }
+  
+  #kontakt{
+    grid-area: kontakt;
+  }
+  
+  #infos{
+    grid-area: infos;
+  }
+
+  .nav__link{
+    font-size: 1.3rem;
+  }
+
+}
 
