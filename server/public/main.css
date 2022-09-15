@@ -688,6 +688,7 @@ p{
   '. hero-img hero-img hero-img hero-img .'
   '. text-box text-box text-box text-box .'
   '. subtitle subtitle subtitle subtitle .'
+  '. video video video video .'
   '. beratung-content beratung-content beratung-content beratung-content .'
   '. beratung-beispiele beratung-beispiele beratung-beispiele beratung-beispiele .'
   '. text-container text-container text-container text-container .';
@@ -720,6 +721,10 @@ p{
   color: rgb(188,189,193);
 }
 
+.youtube{
+  grid-area: video;
+}
+
 .beratung-content{
   grid-area: beratung-content;
   display: flex;
@@ -737,6 +742,8 @@ p{
 
 .beratung-beispiele{
   grid-area: beratung-beispiele;
+  border: purple 1px solid;
+  background-color: aliceblue;
 }
 
 .text-container{
@@ -748,11 +755,26 @@ p{
   font-size: 2rem;
   font-weight: 500; 
   padding: 0;
+  margin: 0;
   color: rgb(188,189,193);
 
 }
 
 .beratung-text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--clr-dark);
+
+}
+
+.beratung-beispiele-list{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2.0;
+  color: var(--clr-dark);
 
 }
 
@@ -958,6 +980,7 @@ p{
 }
 
 .beratung-beispiele-list{
+
 
 }
 
