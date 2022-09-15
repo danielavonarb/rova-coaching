@@ -12,7 +12,7 @@ function Mentaltraining(){
         <h1 className="hero-title">Meine Beratung</h1>
       </div>
       <div className="hero-img">
-        <div id="image"></div>
+        <div id="image-mental"></div>
 	    </div>
       <div className="text-box-container">
         <div className="text-box-1">
@@ -29,7 +29,7 @@ function Mentaltraining(){
         </div>
       </div>
       <div className="subtitle-container">
-        <h3 className="subtitle">Dann hilft dir mein Coaching.</h3>
+        <h3 className="subtitle">Dann hilft dir mein Coaching</h3>
       </div>
       <div className="youtube">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/3zYFWDJ26vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,22 +53,27 @@ function Mentaltraining(){
         </div>
       </div>
         <div className="beratung-beispiele">
-        <h4 className="beratung-title">Beispiele in der meine Beratung helfen kann</h4>
+        <h4 className="beratung-title-beispiele">Beispiele in der meine Beratung helfen kann</h4>
+        <div className='list'>
         <ul className="beratung-beispiele-list">
           <li className="beratung-beispiele-item">Aus dem alten Schema ausbrechen und eine gedeihliche Zukunft antreten</li>
           <li className="beratung-beispiele-item">Träume und Ziele angehen</li>
           <li className="beratung-beispiele-item">Tiefliegende Wünsche aufdecken und diese fördern</li>
           <li className="beratung-beispiele-item">Schwierige Entscheidungen treffen</li>
           <li className="beratung-beispiele-item">Blockaden aufdecken und diese lösen</li>
-          <li className="beratung-beispiele-item">Herausforderungen mutig und entspannt anpacken</li>
+        </ul>
+        <ul className="beratung-beispiele-list">
+        <li className="beratung-beispiele-item">Herausforderungen mutig und entspannt anpacken</li>
           <li className="beratung-beispiele-item">Zweifel ablegen und Selbstvertrauen gewinnen</li>
           <li className="beratung-beispiele-item">Lernen, wie man sich entspannt und gelassener wird</li>
           <li className="beratung-beispiele-item">Den Zugang zu deinen Ressourcen finden</li>
         </ul>
         </div>
+        </div>
         <div className="text-container">
         <p className="beratung-text">Bei einem unverbindlichen Erstgespräch können wir uns gegenseitig kennenlernen und gerne stelle
-          ich dir meine Beratung und meine Vorgehensweise vor, welche ich auf dich auslegen werde. Bei einem Telefonat oder E-Mail gebe ich gerne weitere Auskunft.</p>
+          ich dir meine Beratung und meine Vorgehensweise vor, welche ich auf dich auslegen werde.<br></br><br></br> Bei einem Telefonat oder E-Mail gebe ich gerne weitere Auskunft.</p>
+          <button className="button-kontakt">Kontakt</button>
       </div>
     </section>
   )
