@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import NavPages from './NavPages'
 import Header from './Header'
@@ -71,9 +72,12 @@ function Mentaltraining(){
         </div>
         </div>
         <div className="text-container">
+        <h4 className="beratung-title-gespraech">Erstgespräch</h4>
         <p className="beratung-text">Bei einem unverbindlichen Erstgespräch können wir uns gegenseitig kennenlernen und gerne stelle
           ich dir meine Beratung und meine Vorgehensweise vor, welche ich auf dich auslegen werde.<br></br><br></br> Bei einem Telefonat oder E-Mail gebe ich gerne weitere Auskunft.</p>
-          <button className="button-kontakt">Kontakt</button>
+          
+          <a className='button-link' href="/kontakt"><button className="button-kontakt">Kontakt</button></a>
+       
       </div>
     </section>
   )

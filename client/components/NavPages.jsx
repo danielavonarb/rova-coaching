@@ -21,7 +21,7 @@ function NavPages(){
       </button>
     <nav className = 'nav-pages'>
       <ul className = "nav__list-pages">
-        <li className = "nav__item-pages" id="training-pages"><a onClick={handleClick} href = "/mentaltraining" className = "nav__link-pages">Mentaltraining</a></li>
+        <li className = "nav__item-pages" id="home-pages"><a onClick={handleClick} href = "/" className = "nav__link-pages">Home</a></li>
         <li className = "nav__item-pages" id="about-pages"><a onClick={handleClick} href = "/about" className = "nav__link-pages">Über mich</a></li>
         <li className = "nav__item-pages" id="kontakt-pages"><a onClick={handleClick} href = "/kontakt" className = "nav__link-pages">Kontakt</a></li>
         <li className = "nav__item-pages" id="infos-pages"><a onClick={handleClick} href = "/infos" className = "nav__link-pages">Weitere Infos</a></li>
