@@ -32,18 +32,24 @@ function Mentaltraining(){
         <h3 className="subtitle">Dann hilft dir mein Coaching.</h3>
       </div>
       <div className="beratung-content">
+        <div className="beratung-container">
         <h4 className="beratung-title">Ablauf der Beratung</h4>
         <p className="beratung-text">Gemeinsam untersuchen wir dein Thema und kommen so zu einer objektiven, klaren Sichtweise.
           Zusammen finden wir Lösungen, um deine Wünsche und Ziele zu erreichen. Systematisch und
           akribisch arbeiten wir dann auf deine Ziele hin.</p>
         <p className="beratung-text">Dabei unterstütze und motiviere ich dich tatkräftig und falls du einen Rückzug brauchst, biete ich dir
           einen sicheren Hafen.</p>
+        </div>
+        <div className="beratung-container">
         <h4 className="beratung-title">Die Art der Beratung</h4>
         <p className="beratung-text">In meiner Beratung kannst du sein, wie du bist. Ich schenke dir bedingungslose Wertschätzung und
           bin empathisch. Ich sehe nicht die Unzulänglichkeiten der Menschen, sondern deren Stärken. Aktiv
           höre ich dir zu und du hast die Möglichkeit, alles, was dich beschäftigt, zu teilen und loszuwerden.</p>
         <p className="beratung-text">Ich gestalte meine Beratung kreativ und passe sie individuell auf dich an. So machen wir zusammen
           interessante Übungen, die dir helfen, dein Leben so zu kreieren, wie du es dir wünschst.</p>
+        </div>
+      </div>
+        <div className="beratung-beispiele">
         <h4 className="beratung-title">Beispiele in der meine Beratung helfen kann</h4>
         <ul className="beratung-beispiele-list">
           <li className="beratung-beispiele-item">Aus dem alten Schema ausbrechen und eine gedeihliche Zukunft antreten</li>
@@ -56,6 +62,8 @@ function Mentaltraining(){
           <li className="beratung-beispiele-item">Lernen, wie man sich entspannt und gelassener wird</li>
           <li className="beratung-beispiele-item">Den Zugang zu deinen Ressourcen finden</li>
         </ul>
+        </div>
+        <div className="text-container">
         <p className="beratung-text">Bei einem unverbindlichen Erstgespräch können wir uns gegenseitig kennenlernen und gerne stelle
           ich dir meine Beratung und meine Vorgehensweise vor, welche ich auf dich auslegen werde. Bei einem Telefonat oder E-Mail gebe ich gerne weitere Auskunft.</p>
       </div>
