@@ -903,6 +903,31 @@ p{
   padding: 0;
 }
 
+.nav__item-pages{
+  display: grid;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+#home-pages{
+  background-color: rgb(248, 213,72);
+}
+
+#about-pages{
+  background-color: rgb(147, 206,240);
+}
+
+#kontakt-pages{
+  background-color: rgb(158, 189,58);
+}
+
+#infos-pages{
+  background-color: rgb(236, 177,61);
+}
+
+
 .nav-toggle {
   padding: .5em;
   background: transparent;
@@ -975,7 +1000,7 @@ p{
   text-decoration: none;
   color: var(--clr-light);
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .text-box-container{
