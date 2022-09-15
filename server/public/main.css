@@ -664,3 +664,44 @@ p{
 
 }
 
+
+/* Mentaltraining */
+
+#body-mentaltraining{
+  display:grid;
+  overflow: scroll;
+  grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
+  grid-template-rows: auto auto auto auto;
+  height: 100vh;
+  grid-template-areas: 
+  '. header header header header .'
+  '. nav nav nav nav .'
+  '. hero hero hero hero .'
+  '. hero-img hero-img hero-img hero-img .'
+  '. text-box text-box text-box text-box .'
+  '. subtitle subtitle subtitle subtitle .'
+  '. beratung-content beratung-content beratung-content beratung-content .';
+
+}
+
+#image{
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url('./images/wasser01.jpeg');
+  background-size: cover;
+}
+
+.text-box-container{
+  grid-area: text-box;
+
+}
+
+.subtitle-container{
+  grid-area: subtitle;
+
+}
+
+.beratung-content{
+  grid-area: beratung-content;
+
+}
