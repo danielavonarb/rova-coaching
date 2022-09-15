@@ -671,11 +671,11 @@ p{
   display:grid;
   overflow: scroll;
   grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
   height: 100vh;
   grid-template-areas: 
   '. header header header header .'
-  '. nav nav nav nav .'
+  '. nav-pages nav-pages nav-pages nav-pages .'
   '. hero hero hero hero .'
   '. hero-img hero-img hero-img hero-img .'
   '. text-box text-box text-box text-box .'
@@ -701,7 +701,128 @@ p{
 
 }
 
+.subtitle{
+
+}
+
 .beratung-content{
   grid-area: beratung-content;
+}
+
+.beratung-title{
+
+}
+
+.beratung-text{
+
+}
+
+.nav-pages{
+  grid-area: nav-pages;
+  height: 100%;
+}
+
+.nav__list-pages{
+  display: grid;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 5vh;
+  grid-template-areas: 
+  'training-pages about-pages kontakt-pages infos-pages';
+}
+
+.nav__item-pages{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#training-pages{
+  grid-area: training-pages;
+  background-color: rgb(248, 213,72);
+  width: 100%;
+}
+
+#about-pages{
+  grid-area: about-pages;
+  background-color: rgb(147, 206,240);
+  width: 100%;
+}
+
+#kontakt-pages{
+  grid-area: kontakt-pages;
+  background-color: rgb(158, 189,58);
+  width: 100%;
+}
+
+#infos-pages{
+  grid-area: infos-pages;
+  background-color: rgb(236, 177,61);
+  width: 100%;
+}
+
+.nav__link-pages{
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.text-box-container{
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  max-width: 85%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 1em;
+
+}
+
+.text-box-1{
+  padding: 1em;
+  text-align: center;
+  flex: 1;
+  background-color: rgb(248, 213,72);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+.text-box-2{
+  padding: 1em;
+  text-align: center;
+  flex: 1;
+  background-color: rgb(147, 206,240);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+.text-box-3{
+  padding: 1em;
+  text-align: center;
+  flex: 1;
+  background-color: rgb(158, 189,58);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+.text-box-4{
+  padding: 1em;
+  text-align: center;
+  flex: 1;
+  background-color: rgb(236, 177,61);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+.text-box-p{
+  color: rgb(255,255,255);
+  font-family: "Roboto", sans-serif;
+
+}
+
+.beratung-beispiele-list{
+
+}
+
+.beratung-beispiele-item{
 
 }

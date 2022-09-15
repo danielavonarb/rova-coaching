@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Nav from './Nav'
+import NavPages from './NavPages'
 import Header from './Header'
 
 function Mentaltraining(){
   return (
     <section id="body-mentaltraining">
       <Header />
-      <Nav />
+      <NavPages />
       <div className="hero">
         <h1 className="hero-title">Meine Beratung</h1>
       </div>
@@ -15,10 +15,16 @@ function Mentaltraining(){
         <div id="image"></div>
 	    </div>
       <div className="text-box-container">
-        <div className="text-box">
+        <div className="text-box-1">
           <p className="text-box-p">Du wünschst dir ein ausgeglichenes und aktives Leben?</p>
+        </div>
+        <div className="text-box-2">
           <p className="text-box-p">Du hast eine schwierige Situation, die du verändern möchtest?</p>
+        </div>
+        <div className="text-box-3">
           <p className="text-box-p">Du möchtest lernen, wie du dich effektiv entspannen kannst?</p>
+        </div>
+        <div className="text-box-4">
           <p className="text-box-p">Du sehnst dich nach mehr Selbstvertrauen?</p>
         </div>
       </div>
