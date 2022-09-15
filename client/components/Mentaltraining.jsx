@@ -5,8 +5,10 @@ import Nav from './Nav'
 function Mentaltraining(){
   return (
     <>
-    <Nav />
-    <p>Hello</p>
+      <Nav />
+      <div className="hero">
+		    <img src = "./images/wasser01.jpeg" className="hero-img"></img>
+	    </div>
     </>
   )
 }
