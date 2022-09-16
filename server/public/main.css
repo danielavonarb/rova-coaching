@@ -191,7 +191,6 @@ p{
   
   .hero-img{
     grid-area: hero-img;
-    /* margin-bottom: 10px; */
     height: 38vh;
   }
   
@@ -823,6 +822,17 @@ p{
   
 }
 
+.beratung-text-gespraech{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--clr-dark);
+}
+
 .beratung-title{
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
@@ -849,7 +859,6 @@ p{
   font-weight: 300;
   line-height: 1.5;
   color: var(--clr-dark);
-
 }
 
 .beratung-title-beispiele{
@@ -1060,6 +1069,18 @@ p{
     padding: 10px 40px;
   }
 
+  .beratung-text-gespraech{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.1rem;
+
+  }
+
+  .text-container{
+    padding: 70px;
+    background-position: center;
+  }
+
 }
 
 @media(max-width: 1130px){
@@ -1078,6 +1099,20 @@ p{
     padding: 0px 20px;
     margin: 0;
     text-align: center;
+  }
+
+  .beratung-text-gespraech{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .text-container{
+    padding: 60px;
+    background-position: center;
+  }
+
+  .button-kontakt{
+    width: 15%;
   }
 
 }
@@ -1109,9 +1144,21 @@ p{
 
   .beratung-beispiele-list{
     font-size: 1.0rem;
-    /* line-height: 1.5;
-    width: 50%;
-    padding: 10px 40px; */
+  }
+
+  .beratung-title-gespraech{
+    font-size: 1.5rem;
+  }
+
+  .beratung-text-gespraech{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 1.0rem;
+  }
+
+  .text-container{
+    padding: 50px;
+    background-position: center;
   }
 
 }
@@ -1132,6 +1179,25 @@ p{
 
   .beratung-beispiele-list{
     font-size: 0.9rem;
+  }
+
+  .beratung-title-gespraech{
+    font-size: 1.4rem;
+  }
+
+  .beratung-text-gespraech{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 0.9rem;
+  }
+
+  .text-container{
+    padding: 40px;
+    background-position: center;
+  }
+
+  .button-kontakt{
+    width: 20%;
   }
   
 }
@@ -1165,6 +1231,10 @@ p{
     margin-bottom: 50px;
     padding: 0px 0px;
   }
+  .button-kontakt{
+    width: 26%;
+    font-size: 0.8rem;
+  }
   
 }
 
@@ -1178,12 +1248,42 @@ p{
     font-size: 1.3rem;
   }
 
+  .beratung-title-gespraech{
+    font-size: 1.3rem;
+  }
+
+  .beratung-text-gespraech{
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  .text-container{
+    padding: 30px;
+    background-position: center;
+  }
+
+  .button-kontakt{
+    width: 30%;
+    font-size: 0.7rem;
+  }
+
 }
 
 @media (max-width: 515px){
   .beratung-title-beispiele{
     font-size: 1.0rem;
     text-align: center;
+  }
+
+  .text-container{
+    padding: 25px;
+  }
+
+  .button-kontakt{
+    width: 37%;
+    font-size: 0.7rem;
   }
 }
 
@@ -1202,9 +1302,26 @@ p{
     font-size: 0.9rem;
   }
 
-
   .beratung-beispiele-list{
     font-size: 0.8rem;
+  }
+
+  .beratung-title-gespraech{
+    font-size: 1.0rem;
+  }
+
+  .beratung-text-gespraech{
+    font-size: 0.8rem;
+  }
+
+  .text-container{
+    padding: 10px;
+    background-position: center;
+  }
+
+  .button-kontakt{
+    width: 35%;
+    font-size: 0.5rem;
   }
   
 
