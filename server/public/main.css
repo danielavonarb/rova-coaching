@@ -1462,6 +1462,14 @@ iframe{
   .text-box-container{
     grid-template-rows: 13vh 13vh;
   }
+
+  #image-mental{
+     background-position: center;
+  }
+
+  .nav-toggle {
+    top: 2em;
+  }
   
 
   
