@@ -1,13 +1,13 @@
 import React from 'react'
 
-import NavPages from './NavPages'
+import NavAbout from './NavAbout'
 import Header from './Header'
 
 function About(){
   return (
     <section id="body-about">
       <Header />
-      <NavPages />
+      <NavAbout />
       <div className="hero">
         <h1 className="hero-title">Über Mich</h1>
       </div>
