@@ -1471,7 +1471,97 @@ iframe{
     top: 2em;
   }
   
-
-  
 }
+
+/* About */
+
+#body-about{
+  display:grid;
+  overflow: scroll;
+  grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
+  grid-template-rows: auto auto auto auto auto;
+  height: 100vh;
+  grid-template-areas: 
+  '. header header header header .'
+  '. nav-header nav-header nav-header nav-header .'
+  '. hero hero hero hero .'
+  '. hero-img hero-img hero-img hero-img .'
+  '. about-container about-container about-container about-container .';
+ 
+}
+
+#image-about{
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url('./images/wasser02.jpeg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.about-container{
+  grid-area: about-container;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  'about-image about-text-container';  
+}
+
+.aboutcontainer{
+  grid-area: about-text-container;
+
+}
+
+.about-text{
+  width: 70%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--clr-dark);
+}
+
+.about-title{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 500; 
+  padding: 0;
+  margin: 0;
+  color: rgb(188,189,193);
+}
+
+
+.about-image{
+  grid-area: about-image;
+  margin-right: 50px;
+  height: 50vh;
+  }
+
+.roman{
+  max-height: 100%;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+
+.button-kontakt-about{
+  width: 10%;
+  margin-top: 30px;
+  padding: 5px;
+  background: rgb(158, 189,58);
+  color: var(--clr-dark);
+  cursor: pointer;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: transform 200ms ease-in-out;
+
+}
+
+.button-kontakt-about:hover {
+  transform: scale(1.1);
+}
+
+
 
