@@ -602,7 +602,7 @@ p{
   .hero-img{
     grid-area: hero-img;
     margin-bottom: 0px;
-    height: 32vh;
+    height: 35vh;
   }
   
   #image-home{
@@ -615,8 +615,8 @@ p{
   
   .hero-title{
     font-size: 1.3rem;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   .nav{
@@ -834,7 +834,7 @@ iframe{
   padding-left: 180px;
   padding-right: 180px;
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.5;
   color: var(--clr-dark);
 }
