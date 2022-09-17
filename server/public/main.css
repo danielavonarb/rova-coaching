@@ -1404,6 +1404,10 @@ iframe{
     grid-template-rows: 13vh 13vh;
   }
 
+  .beratung-beispiele-list{
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 515px){
@@ -1419,6 +1423,10 @@ iframe{
   .button-kontakt{
     width: 37%;
     font-size: 0.7rem;
+  }
+
+  .beratung-beispiele-list{
+    text-align: center;
   }
 }
 
