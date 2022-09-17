@@ -145,6 +145,7 @@ p{
   font-size: 2.5rem;
 }
 
+
 @media (max-width: 1000px) {
 
   #body-home{
@@ -693,7 +694,7 @@ p{
 
 .text-box-container{
   grid-area: text-box;
-
+ 
 }
 
 .text-box-container{
@@ -874,6 +875,7 @@ iframe{
   margin: 0;
   color: rgb(188,189,193);
   text-align: center;
+
 }
 
 .beratung-title-beispiele::after {
@@ -896,12 +898,15 @@ iframe{
   width: 50%;
   padding: 10px 70px;
 
+
 }
 
 .list{
   display: flex;
   flex-direction: row;
 }
+
+
 
 .button-link{
   display: grid;
@@ -1106,8 +1111,8 @@ iframe{
   }
 
   .beratung-beispiele-list{
-    width: 95%;
-    padding: 0px 20px;
+    width: 100%;
+    padding: 0px 0px;
     margin: 0;
     text-align: center;
   }
@@ -1312,24 +1317,28 @@ iframe{
     grid-area: box1;
     display: grid;
     width: fit-content;
+    box-shadow: none;
   }
   
   .text-box-2{
     grid-area: box2;
     display: grid;
     width: fit-content;
+    box-shadow: none;
   }
   
   .text-box-3{
     grid-area: box3;
     display: grid;
     width: fit-content;
+    box-shadow: none;
   }
   
   .text-box-4{
     grid-area: box4;
     display: grid;
     width: fit-content;
+    box-shadow:none;
   }
 
   .text-box-p{
@@ -1413,6 +1422,7 @@ iframe{
   }
 }
 
+
 @media (max-width: 392px){
 
   .beratung-title{
@@ -1428,12 +1438,14 @@ iframe{
     font-size: 1.2rem;
   }
 
+
   .beratung-title-beispiele{
     font-size: 0.9rem;
   }
 
   .beratung-beispiele-list{
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .beratung-title-gespraech{
@@ -1661,6 +1673,7 @@ iframe{
   .about-container{
     padding: 20px 0px;
   }
+
 
 }
 
