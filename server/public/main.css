@@ -64,7 +64,6 @@ p{
 .hero{
   grid-area: hero;
   margin-top: 10px;
-
 }
 
 
@@ -1692,7 +1691,7 @@ iframe{
   overflow: scroll;
   grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
   grid-template-rows: auto auto auto auto auto;
-  height: 100vh;
+  height: fit-content;
   grid-template-areas: 
   '. header header header header .'
   '. nav-header nav-header nav-header nav-header .'
@@ -1701,6 +1700,9 @@ iframe{
   '. kontakt-container kontakt-container kontakt-container kontakt-container .';
  
 }
+
+
+
 
 #image-kontakt{
   min-width: 100%;
@@ -1769,6 +1771,8 @@ i{
   color: var(--clr-dark);
   font-family: 'Montserrat', sans-serif;
 }
+
+
 
 @media (max-width: 1000px){
   .kontakt-container{
@@ -1867,6 +1871,16 @@ i{
 @media (max-width: 475px){
   .kontakt-title{
     font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  #image-kontakt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .kontakt-container{
+    margin-top: 60px;
+    margin-bottom: 0px;
   }
 }
 
@@ -1900,6 +1914,43 @@ i{
     font-size: 1.2em;
   }
 }
+
+
+
+
+
+/* Workshops */
+
+#body-workshops{
+  display:grid;
+  overflow: scroll;
+  grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
+  grid-template-rows: auto auto auto auto auto;
+  height: 100vh;
+  grid-template-areas: 
+  '. header header header header .'
+  '. nav-header nav-header nav-header nav-header .'
+  '. hero hero hero hero .'
+  '. hero-img hero-img hero-img hero-img .'
+  '. workshops-container workshops-container workshops-container workshops-container .';
+ 
+}
+
+#image-workshops{
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url('./images/wasser02.jpeg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.workshops-container{
+  grid-area: kontakt-container;
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+
 
 
 
