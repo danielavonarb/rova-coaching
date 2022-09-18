@@ -24,7 +24,7 @@ function NavPages(){
         <li className = "nav__item-pages" id="home-pages"><a onClick={handleClick} href = "/" className = "nav__link-pages">Home</a></li>
         <li className = "nav__item-pages" id="about-pages"><a onClick={handleClick} href = "/about" className = "nav__link-pages">Über mich</a></li>
         <li className = "nav__item-pages" id="kontakt-pages"><a onClick={handleClick} href = "/kontakt" className = "nav__link-pages">Kontakt</a></li>
-        <li className = "nav__item-pages" id="infos-pages"><a onClick={handleClick} href = "/infos" className = "nav__link-pages">Weitere Infos</a></li>
+        <li className = "nav__item-pages" id="workshops-pages"><a onClick={handleClick} href = "/workshops" className = "nav__link-pages">Workshops</a></li>
       </ul>
     </nav>
     </div>

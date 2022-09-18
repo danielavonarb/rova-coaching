@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import NavPages from './NavPages'
 import Header from './Header'
 
-function Mentaltraining(){
+function Coaching(){
   return (
     <section id="body-mentaltraining">
       <Header />
@@ -83,4 +83,4 @@ function Mentaltraining(){
   )
 }
 
-export default Mentaltraining
+export default Coaching
