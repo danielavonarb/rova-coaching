@@ -15,12 +15,12 @@ function Kontakt(){
         <div id="image-kontakt"></div>
 	    </div>
       <div className='kontakt-container'>
-        <div className='kontaktcontainer'>
-        <h4 className="kontakt-title">Hallo, ich bin Roman!</h4>
-        <p className='kontakt-text'>Ich bin zertifizierter Mentalcoach. Ich liebe es, mich ständig weiterzuentwickeln und ein
-          abenteuerliches Leben zu führen. Zielstrebig und mit viel Freude gehe ich meinen Weg und trotze
-          meinen eigenen Zweifeln.</p>
-        </div>
+        <h4 className="kontakt-title">Ich freue mich, dich kennen zu lernen!</h4>
+        <ul className="icons">
+        <li className="icon-item" id="email"><i className="fa-regular fa-envelope"></i><a href="mailto:roman.vonarb@gmail.com" className="email">roman.vonarb@gmail.com</a></li>
+        <li className="icon-item"><i className="fa-solid fa-phone"></i><a className="phone">+41 79 609 70 36</a></li>
+        <li className="icon-item"><i className="fa-brands fa-instagram"></i><a className="insta">rova_coaching</a></li>
+        </ul>
       </div>
     </section>
 
