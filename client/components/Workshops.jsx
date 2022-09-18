@@ -1,13 +1,13 @@
 import React from 'react'
 
-import NavAbout from './NavAbout'
+import NavWorkshops from './NavWorkshops'
 import Header from './Header'
 
 function Workshops(){
   return (
     <section id="body-workshops">
       <Header />
-      <NavAbout />
+      <NavWorkshops />
       <div className="hero">
         <h1 className="hero-title">Workshops</h1>
       </div>
@@ -15,7 +15,7 @@ function Workshops(){
         <div id="image-workshops"></div>
 	    </div>
       <div className='workshops-container'>
-        <h4 className="workshops-title">Hallo, ich bin Roman!</h4>
+        <h4 className="workshops-title">Aktuell finden keine workshops statt.</h4>
       </div>
     </section>
 
