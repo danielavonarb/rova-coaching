@@ -11,10 +11,10 @@ function Header(){
     </div>
     <div className = "header-info">	
 		  <p>ROVA Coaching<br />
-		    Musterstrasse 5<br />
-		    5000 Biberist<br />
-		    +41 76 000 00 00<br />
-		    kontakt@rova-coaching.ch
+		    Werkhofstrasse 6a<br />
+		    4562 Biberist<br />
+		    +41 79 609 70 36<br />
+		    rova.coaching@gmail.com
 		  </p>
     </div>
   </header>
