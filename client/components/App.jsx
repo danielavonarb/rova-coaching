@@ -4,10 +4,10 @@ import { Routes, Route } from 'react-router-dom'
 
 import Header from './Header'
 import Home from './Home'
-import Mentaltraining from './Mentaltraining'
+import Coaching from './Coaching'
 import About from './About'
 import Kontakt from './Kontakt'
-import Infos from './Infos'
+import Workshops from './Workshops'
 import Footer from './Footer'
 
 const App = () => {
@@ -18,10 +18,10 @@ const App = () => {
       {/* <Header /> */}
         <Routes>
           <Route path='/' element={<Home />}/>
-          <Route path='/coaching' element={<Mentaltraining />} />
+          <Route path='/coaching' element={<Coaching />} />
           <Route path='/about' element={<About />} />
           <Route path='/kontakt' element={<Kontakt />} />
-          <Route path='/infos' element={<Infos />} />
+          <Route path='/workshops' element={<Workshops />} />
         </Routes>
       {/* <Footer /> */}
     </>

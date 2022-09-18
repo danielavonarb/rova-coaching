@@ -2,7 +2,7 @@ import React from 'react'
 
 import Nav from './Nav'
 
-function Infos(){
+function Workshops(){
   return (
     <>
       <Nav />
@@ -13,4 +13,4 @@ function Infos(){
   )
 }
 
-export default Infos
+export default Workshops

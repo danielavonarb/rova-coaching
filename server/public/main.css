@@ -104,7 +104,7 @@ p{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 25vh;
   grid-template-areas: 
-  'training about kontakt infos';
+  'training about kontakt workshops';
 }
 
 .nav__item{
@@ -132,8 +132,8 @@ p{
   width: 100%;
 }
 
-#infos{
-  grid-area: infos;
+#workshops{
+  grid-area: workshops;
   background-color: rgb(236, 177,61);
   width: 100%;
 }
@@ -218,7 +218,7 @@ p{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 25vh;
     grid-template-areas: 
-    'training about kontakt infos';
+    'training about kontakt workshops';
   }
   
 
@@ -237,8 +237,8 @@ p{
     width: 100%;
   }
   
-  #infos{
-    grid-area: infos;
+  #workshops{
+    grid-area: workshops;
     width: 100%;
   }
 
@@ -322,7 +322,7 @@ p{
     grid-template-rows: 20vh 20vh;
     grid-template-areas: 
     'training about'
-    'kontakt infos'; 
+    'kontakt workshops'; 
   }
   
 
@@ -341,8 +341,8 @@ p{
     width: 100%;
   }
   
-  #infos{
-    grid-area: infos;
+  #workshops{
+    grid-area: workshops;
     width: 100%;
   }
 
@@ -427,7 +427,7 @@ p{
     grid-template-rows: 20vh 20vh;
     grid-template-areas: 
     'training about'
-    'kontakt infos'; 
+    'kontakt workshops'; 
   }
   
 
@@ -446,8 +446,8 @@ p{
     width: 100%;
   }
   
-  #infos{
-    grid-area: infos;
+  #workshops{
+    grid-area: workshops;
     width: 100%;
   }
 
@@ -530,7 +530,7 @@ p{
     grid-template-rows: 18vh 18vh;
     grid-template-areas: 
     'training about'
-    'kontakt infos'; 
+    'kontakt workshops'; 
   }
   
   #training{
@@ -545,8 +545,8 @@ p{
     grid-area: kontakt;
   }
   
-  #infos{
-    grid-area: infos;
+  #workshops{
+    grid-area: workshops;
   }
 
   .nav__link{
@@ -629,7 +629,7 @@ p{
     grid-template-rows: 18vh 18vh;
     grid-template-areas: 
     'training about'
-    'kontakt infos'; 
+    'kontakt workshops'; 
   }
   
 
@@ -645,8 +645,8 @@ p{
     grid-area: kontakt;
   }
   
-  #infos{
-    grid-area: infos;
+  #workshops{
+    grid-area: workshops;
   }
 
   .nav__link{
@@ -983,7 +983,7 @@ iframe{
   background-color: rgb(158, 189,58);
 }
 
-#infos-pages{
+#workshops-pages{
   background-color: rgb(236, 177,61);
 }
 
@@ -1684,6 +1684,223 @@ iframe{
 
 
 }
+
+/* Kontakt */
+
+#body-kontakt{
+  display:grid;
+  overflow: scroll;
+  grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
+  grid-template-rows: auto auto auto auto auto;
+  height: 100vh;
+  grid-template-areas: 
+  '. header header header header .'
+  '. nav-header nav-header nav-header nav-header .'
+  '. hero hero hero hero .'
+  '. hero-img hero-img hero-img hero-img .'
+  '. kontakt-container kontakt-container kontakt-container kontakt-container .';
+ 
+}
+
+#image-kontakt{
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url('./images/wasser04.jpeg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.kontakt-container{
+  grid-area: kontakt-container;
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+
+.kontakt-title{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 500; 
+  padding: 0;
+  margin: 0;
+  color: rgb(188,189,193);
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-top: 50px;
+  list-style: none;
+  padding: 0px;
+  background-color: #fdf4ce;
+  box-shadow: .25em 0.25em 0.75em rgba(0,0,0,.25),
+              0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+i{
+  margin-bottom: 40px;
+  margin-right: 30px;
+  margin-left: 20px;
+  font-size: 2em;
+  color: rgb(188,189,193);
+  width: fit-content;
+}
+
+#email{
+  margin-top: 40px;
+}
+
+.email{
+  text-decoration: none;
+  font-size: 1em;
+  color: var(--clr-dark);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.phone{
+  font-size: 1em;
+  color: var(--clr-dark);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.insta{
+  font-size: 1em;
+  color: var(--clr-dark);
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1000px){
+  .kontakt-container{
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  .icons{
+    width: 70%;
+  }
+}
+
+@media (max-width: 750px){
+  .kontakt-container{
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  .icons{
+    width: 80%;
+  }
+
+  .kontakt-title{
+    font-size: 1.7rem;
+  }
+
+}
+
+@media (max-width: 650px){
+  .kontakt-container{
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .icons{
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .kontakt-title{
+    font-size: 1.6rem;
+  }
+
+  i{
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 20px;
+    font-size: 1.8em;
+  }
+  
+  #email{
+    margin-top: 30px;
+  }
+  
+  .email{
+    font-size: .8em;
+  }
+  
+  .phone{
+    font-size: .8em;
+  }
+  
+  .insta{
+    font-size: .8em;
+  }
+  
+}
+
+@media (max-width: 565px){
+  .kontakt-title{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 530px){
+  .kontakt-title{
+    font-size: 1.4rem;
+  }
+
+  .kontakt-container{
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  #email{
+    margin-top: 20px;
+  }
+
+  .icons{
+    width: 85%;
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width: 475px){
+  .kontakt-title{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 405px){
+  .kontakt-title{
+    font-size: 1rem;
+  }
+
+  #email{
+    margin-top: 10px;
+  }
+
+  .icons{
+    width: 85%;
+    margin-top: 10px;
+  }
+
+  .email{
+    font-size: .7em;
+  }
+  
+  .phone{
+    font-size: .7em;
+  }
+  
+  .insta{
+    font-size: .7em;
+  }
+
+  i{
+    font-size: 1.2em;
+  }
+}
+
 
 
 
