@@ -1513,9 +1513,8 @@ iframe{
 #image-about{
   min-width: 100%;
   min-height: 100%;
-  background-image: url('./images/wasser02.jpeg');
+  background-image: url('./images/aboutgross.jpg');
   background-size: cover;
-  background-position: center bottom;
 }
 
 .about-container{
@@ -1672,6 +1671,13 @@ iframe{
     margin-bottom: 30px;
   }
 
+  #image-about{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/aboutsmall.jpg');
+    background-size: cover;
+  }
+
 }
 
 @media (max-width: 392px){
@@ -1686,6 +1692,13 @@ iframe{
 
   .about-container{
     padding: 20px 0px;
+  }
+
+  #image-about{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/aboutsmall.jpg');
+    background-size: cover;
   }
 
 
