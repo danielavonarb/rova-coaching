@@ -1733,9 +1733,9 @@ iframe{
 #image-kontakt{
   min-width: 100%;
   min-height: 100%;
-  background-image: url('./images/wasser04.jpeg');
+  background-image: url('./images/kontaktgross.jpg');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
 }
 
 .kontakt-container{
@@ -1926,6 +1926,14 @@ i{
   .icons{
     width: 85%;
     margin-top: 20px;
+  }
+
+  #image-kontakt{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/kontaktsmall.jpg');
+    background-size: cover;
+    background-position: center;
   }
   
 }
