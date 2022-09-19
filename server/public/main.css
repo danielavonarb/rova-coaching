@@ -77,8 +77,9 @@ p{
 #image-home{
   min-width: 100%;
   min-height: 100%;
-  background-image: url('./images/home-pano02.jpg');
+  background-image: url('./images/home1.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .hero-title{
@@ -508,7 +509,7 @@ p{
     #image-home{
       min-width: 100%;
       min-height: 100%;
-      background-image: url('./images/IMG_4906.jpg');
+      background-image: url('./images/homesmall.jpg');
       background-size: cover;
       background-position: center;
     }
@@ -607,9 +608,9 @@ p{
   #image-home{
     min-width: 100%;
     min-height: 100%;
-    background-image: url('./images/IMG_4906.jpg');
+    background-image: url('./images/homesmall.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
   }
   
   .hero-title{
