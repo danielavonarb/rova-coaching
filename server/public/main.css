@@ -688,8 +688,9 @@ p{
 #image-mental{
   min-width: 100%;
   min-height: 100%;
-  background-image: url('./images/wasser01.jpeg');
+  background-image: url('./images/beratunggross.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .text-box-container{
@@ -1427,6 +1428,14 @@ iframe{
 
   .beratung-beispiele-list{
     text-align: center;
+  }
+
+  #image-mental{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/beratungsmall.jpg');
+    background-size: cover;
+    background-position: center;
   }
 }
 
