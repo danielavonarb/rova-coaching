@@ -1415,11 +1415,13 @@ iframe{
     width: 2.7em;
     height: 4px;
   }
+
   .hamburger::before { top: 7.5px; }
   .hamburger::after { bottom: 7.5px; }
-  }
 
 }
+  
+
 
 @media (max-width: 515px){
   .beratung-title-beispiele{
@@ -1521,13 +1523,15 @@ iframe{
 
   .hamburger,
   .hamburger::before,
-  .hamburger::after {
+  .hamburger::after{
     width: 2.2em;
     height: 3.7px;
   }
+  
+  
   .hamburger::before { top: 7.5px; }
   .hamburger::after { bottom: 7.5px; }
-  }
+  
   
 }
 
