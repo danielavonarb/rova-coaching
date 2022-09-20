@@ -15,7 +15,7 @@ function Workshops(){
         <div id="image-workshops"></div>
 	    </div>
       <div className='workshops-container'>
-        <h4 className="workshops-title">Aktuell finden keine workshops statt.</h4>
+        <h4 className="workshops-title">Aktuell finden keine Workshops statt.</h4>
       </div>
     </section>
 

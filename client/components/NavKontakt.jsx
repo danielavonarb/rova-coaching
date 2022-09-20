@@ -22,7 +22,7 @@ function NavKontakt(){
     <nav className = 'nav-pages'>
       <ul className = "nav__list-pages">
         <li className = "nav__item-pages" id="home-pages"><a onClick={handleClick} href = "/" className = "nav__link-pages">Home</a></li>
-        <li className = "nav__item-pages" id="about-pages"><a onClick={handleClick} href = "/coaching" className = "nav__link-pages">Coaching</a></li>
+        <li className = "nav__item-pages" id="about-pages"><a onClick={handleClick} href = "/coaching" className = "nav__link-pages">Beratung</a></li>
         <li className = "nav__item-pages" id="kontakt-pages"><a onClick={handleClick} href = "/about" className = "nav__link-pages">Über mich</a></li>
         <li className = "nav__item-pages" id="workshops-pages"><a onClick={handleClick} href = "/workshops" className = "nav__link-pages">Workshops</a></li>
       </ul>

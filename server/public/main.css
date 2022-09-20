@@ -1038,8 +1038,8 @@ iframe{
 .hamburger::before,
 .hamburger::after {
   background: rgb(188,189,193);
-  width: 2.7em;
-  height: 3.7px;
+  width: 3em;
+  height: 5px;
   border-radius: 1em;
   transition: transform 250ms ease-in-out;
 }
@@ -1054,8 +1054,8 @@ iframe{
 
 }
 
-.hamburger::before { top: 7.5px; }
-.hamburger::after { bottom: 7.5px; }
+.hamburger::before { top: 10px; }
+.hamburger::after { bottom: 10px; }
 
 .nav__link-pages{
   text-decoration: none;
@@ -1409,6 +1409,16 @@ iframe{
     text-align: center;
   }
 
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    width: 2.7em;
+    height: 4px;
+  }
+  .hamburger::before { top: 7.5px; }
+  .hamburger::after { bottom: 7.5px; }
+  }
+
 }
 
 @media (max-width: 515px){
@@ -1437,6 +1447,15 @@ iframe{
     background-size: cover;
     background-position: top;
   }
+
+  .hamburger,
+.hamburger::before,
+.hamburger::after {
+  width: 2.5em;
+  height: 3.5px;
+}
+.hamburger::before { top: 7.5px; }
+.hamburger::after { bottom: 7.5px; }
 }
 
 
@@ -1498,6 +1517,16 @@ iframe{
 
   .nav-toggle {
     top: 2em;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    width: 2.2em;
+    height: 3.7px;
+  }
+  .hamburger::before { top: 7.5px; }
+  .hamburger::after { bottom: 7.5px; }
   }
   
 }

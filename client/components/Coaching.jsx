@@ -30,7 +30,7 @@ function Coaching(){
         </div>
       </div>
       <div className="subtitle-container">
-        <h3 className="subtitle">Dann hilft dir mein Coaching</h3>
+        <h3 className="subtitle">Dann hilft dir meine Beratung</h3>
       </div>
       <div className="youtube">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/3zYFWDJ26vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -42,14 +42,14 @@ function Coaching(){
           Zusammen finden wir Lösungen, um deine Wünsche und Ziele zu erreichen. Systematisch und
           akribisch arbeiten wir dann auf deine Ziele hin.</p>
         <p className="beratung-text">Dabei unterstütze und motiviere ich dich tatkräftig und falls du einen Rückzug brauchst, biete ich dir
-          einen sicheren Hafen.</p>
+          die Gelegenheit, durchzuatmen.</p>
         </div>
         <div className="beratung-container">
         <h4 className="beratung-title">Die Art der Beratung</h4>
         <p className="beratung-text">In meiner Beratung kannst du sein, wie du bist. Ich schenke dir bedingungslose Wertschätzung und
           bin empathisch. Ich sehe nicht die Unzulänglichkeiten der Menschen, sondern deren Stärken. Aktiv
           höre ich dir zu und du hast die Möglichkeit, alles, was dich beschäftigt, zu teilen und loszuwerden.</p>
-        <p className="beratung-text">Ich gestalte meine Beratung kreativ und passe sie individuell auf dich an. So machen wir zusammen
+        <p className="beratung-text">Ich gestalte die Beratung kreativ und passe sie individuell auf dich an. So machen wir zusammen
           interessante Übungen, die dir helfen, dein Leben so zu kreieren, wie du es dir wünschst.</p>
         </div>
       </div>
