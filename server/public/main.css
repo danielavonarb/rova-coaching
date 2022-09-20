@@ -33,7 +33,7 @@ body{
 .footer{
   grid-area: footer;
   font-family: "Montserrat", sans-serif;
-  font-size: smaller;
+  font-size: .5em;
   font-weight: 500;
   color: rgb(188,189,193);
   margin: 0;
@@ -491,6 +491,11 @@ p{
     grid-area: header;
     height: fit-content;
   }
+
+  .footer{
+    grid-area: footer;
+    font-size: .3em;
+  }
   
   .header::after{
     width: 82%;
@@ -714,7 +719,6 @@ p{
 .footer{
   grid-area: footer;
   font-family: "Montserrat", sans-serif;
-  font-size: smaller;
   font-weight: 500;
   color: rgb(188,189,193);
 }

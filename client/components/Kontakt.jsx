@@ -17,7 +17,7 @@ function Kontakt(){
 	    </div>
       <div className='kontakt-container'>
         <h4 className="kontakt-title">Ich freue mich, dich kennen zu lernen!</h4>
-        <p className='text-kontakt'>Meine Praxis befindet sich an der <strong>Werkhofstrasse 6a, 4562 Biberist</strong>.</p>
+        <p className='text-kontakt'>Meine Praxis befindet sich an der Werkhofstrasse 6a, 4562 Biberist.</p>
         {/* <div className='iconsmap'> */}
         <ul className="icons">
         <li className="icon-item" id="email"><i className="fa-regular fa-envelope"></i><a href="mailto:roman.vonarb@gmail.com" className="email">rova.coaching@gmail.com</a></li>

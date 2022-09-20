@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.15.6",
@@ -77,8 +78,7 @@
     "semi": false,
     "singleQuote": true
   },
-
   "engines": {
     "node": "14.x"
-}
+  }
 }
