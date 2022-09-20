@@ -125,6 +125,8 @@ p{
   justify-content: center;
 }
 
+.nav__item:hover {opacity: 0.8}
+
 
 #training{
   grid-area: training;
@@ -1019,6 +1021,8 @@ iframe{
   background-color: rgb(236, 177,61);
 }
 
+.nav__item-pages:hover {opacity: 0.8}
+
 
 .nav-toggle {
   padding: .5em;
@@ -1052,7 +1056,7 @@ iframe{
 }
 
 .nav-open .hamburger::before {
-  transform: rotate(90deg) translateX(-6px);
+  transform: rotate(90deg) translateX(-9px);
 }
 
 .nav-open .hamburger::after {
@@ -1871,6 +1875,11 @@ i{
   font-size: 1em;
   color: var(--clr-dark);
   font-family: 'Montserrat', sans-serif;
+
+}
+
+.email:hover{
+  opacity: 0.7;
 }
 
 .phone{
@@ -1879,6 +1888,11 @@ i{
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
+
+.phone:hover{
+  opacity: 0.7;
+}
+
 
 .insta{
   font-size: 1em;
