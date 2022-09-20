@@ -2,6 +2,7 @@ import React from 'react'
 
 import NavKontakt from './NavKontakt'
 import Header from './Header'
+import Footer from './Footer'
 
 function Kontakt(){
   return (
@@ -28,6 +29,7 @@ function Kontakt(){
         </div> */}
         {/* </div> */}
       </div>
+      <Footer />
     </section>
 
 

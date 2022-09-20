@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import Nav from './Nav'
 import Header from './Header'
+import Footer from './Footer'
 
 function Home(){
 
@@ -19,6 +20,7 @@ function Home(){
         </picture> */}
 	    </div>
       <Nav />
+      <Footer />
     </section>
   )
 }

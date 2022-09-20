@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import NavPages from './NavPages'
 import Header from './Header'
+import Footer from './Footer'
 
 function Coaching(){
   return (
@@ -79,6 +80,7 @@ function Coaching(){
           <a className='button-link' href="/kontakt"><button className="button-kontakt">Kontakt</button></a>
        
       </div>
+      <Footer />
     </section>
   )
 }

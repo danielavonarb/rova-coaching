@@ -2,6 +2,7 @@ import React from 'react'
 
 import NavWorkshops from './NavWorkshops'
 import Header from './Header'
+import Footer from './Footer'
 
 function Workshops(){
   return (
@@ -17,6 +18,7 @@ function Workshops(){
       <div className='workshops-container'>
         <h4 className="workshops-title">Aktuell finden keine Workshops statt.</h4>
       </div>
+      <Footer />
     </section>
 
 

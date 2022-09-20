@@ -12,13 +12,14 @@ body{
     display:grid;
     overflow: scroll;
     grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     height: 100vh;
     grid-template-areas: 
     '. header header header header .'
     '. hero hero hero hero .'
     '. hero-img hero-img hero-img hero-img .'
-    '. nav nav nav nav .';  
+    '. nav nav nav nav .'
+    '. footer footer footer footer .';  
 }
 
 .header{
@@ -27,6 +28,17 @@ body{
   position: relative;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.footer{
+  grid-area: footer;
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+  font-weight: 500;
+  color: rgb(188,189,193);
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }
 
 .header::after{
@@ -157,7 +169,8 @@ p{
     '. header header .'
     '. hero hero .'
     '. hero-img hero-img .'
-    '. nav nav .';  
+    '. nav nav .'
+    '. footer footer .';  
 }
 
   .header{
@@ -259,7 +272,8 @@ p{
     '. header header .'
     '. hero hero .'
     '. hero-img hero-img .'
-    '. nav nav .';  
+    '. nav nav .'
+    '. footer footer .'
 }
 
   .header{
@@ -364,7 +378,8 @@ p{
     '. header header .'
     '. hero hero .'
     '. hero-img hero-img .'
-    '. nav nav .';  
+    '. nav nav .'
+    '. footer fotter .';
 }
 
   .header{
@@ -468,7 +483,8 @@ p{
     '. header .'
     '. hero .'
     '. hero-img .'
-    '. nav .';  
+    '. nav .'
+    '. footer .';
 }
 
   .header{
@@ -566,7 +582,8 @@ p{
     '. header .'
     '. hero .'
     '. hero-img .'
-    '. nav .';  
+    '. nav .'
+    '. footer .';
 }
 
   .header{
@@ -670,7 +687,7 @@ p{
   display:grid;
   overflow: scroll;
   grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
   height: 100vh;
   grid-template-areas: 
   '. header header header header .'
@@ -682,7 +699,8 @@ p{
   '. video video video video .'
   '. beratung-content beratung-content beratung-content beratung-content .'
   '. beratung-beispiele beratung-beispiele beratung-beispiele beratung-beispiele .'
-  '. text-container text-container text-container text-container .';
+  '. text-container text-container text-container text-container .'
+  '. footer footer footer footer .';
 }
 
 #image-mental{
@@ -692,6 +710,15 @@ p{
   background-size: cover;
   background-position: center;
 }
+
+.footer{
+  grid-area: footer;
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+  font-weight: 500;
+  color: rgb(188,189,193);
+}
+
 
 .text-box-container{
   grid-area: text-box;
@@ -1541,14 +1568,15 @@ iframe{
   display:grid;
   overflow: scroll;
   grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
   height: 100vh;
   grid-template-areas: 
   '. header header header header .'
   '. nav-header nav-header nav-header nav-header .'
   '. hero hero hero hero .'
   '. hero-img hero-img hero-img hero-img .'
-  '. about-container about-container about-container about-container .';
+  '. about-container about-container about-container about-container .'
+  '. footer footer footer footer .';
  
 }
 
@@ -1559,6 +1587,8 @@ iframe{
   background-size: cover;
   background-position: center;
 }
+
+
 
 .about-container{
   grid-area: about-container;
@@ -1757,14 +1787,15 @@ iframe{
   display:grid;
   overflow: scroll;
   grid-template-columns: 0.18fr 1fr 1fr 1fr 1fr 0.18fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
   height: fit-content;
   grid-template-areas: 
   '. header header header header .'
   '. nav-header nav-header nav-header nav-header .'
   '. hero hero hero hero .'
   '. hero-img hero-img hero-img hero-img .'
-  '. kontakt-container kontakt-container kontakt-container kontakt-container .';
+  '. kontakt-container kontakt-container kontakt-container kontakt-container .'
+  '. footer footer footer footer .';
  
 }
 
@@ -2055,7 +2086,8 @@ i{
   '. nav-header nav-header nav-header nav-header .'
   '. hero hero hero hero .'
   '. hero-img hero-img hero-img hero-img .'
-  '. workshops-container workshops-container workshops-container workshops-container .';
+  '. workshops-container workshops-container workshops-container workshops-container .'
+  '. footer footer footer footer .';
  
 }
 

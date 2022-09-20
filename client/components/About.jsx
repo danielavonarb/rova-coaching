@@ -2,6 +2,7 @@ import React from 'react'
 
 import NavAbout from './NavAbout'
 import Header from './Header'
+import Footer from './Footer'
 
 function About(){
   return (
@@ -32,6 +33,7 @@ function About(){
           <img className='roman' src='images/about.jpeg'></img>
         </div>
       </div>
+      <Footer />
     </section>
 
 
