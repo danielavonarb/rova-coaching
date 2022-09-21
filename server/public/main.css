@@ -1493,6 +1493,10 @@ iframe{
 }
 .hamburger::before { top: 7.5px; }
 .hamburger::after { bottom: 7.5px; }
+
+.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-8px);
+}
 }
 
 
@@ -1566,6 +1570,10 @@ iframe{
   
   .hamburger::before { top: 7.5px; }
   .hamburger::after { bottom: 7.5px; }
+
+  .nav-open .hamburger::before {
+    transform: rotate(90deg) translateX(-7.5px);
+  }
   
   
 }
