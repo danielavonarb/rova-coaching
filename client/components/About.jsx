@@ -27,6 +27,7 @@ function About(){
         <p className='about-text'>Meinen Ausgleich finde ich, indem ich Kung Fu lerne und praktiziere. Ausserdem liebe ich das Segeln
           auf meinem Segelboot, woraus ich viel Kraft schöpfen kann.</p>
         <p className='about-text'>Ich freue mich auf deine Kontaktaufnahme.</p>
+        <p className='about-text'>Roman von Arb</p>
         <a className='button-link' href="/kontakt"><button className="button-kontakt-about">Kontakt</button></a>
         </div>
         <div className='about-image'>

@@ -22,6 +22,7 @@ function Kontakt(){
         <ul className="icons">
         <li className="icon-item" id="email"><i className="fa-regular fa-envelope"></i><a href="mailto:roman.vonarb@gmail.com" className="email">rova.coaching@gmail.com</a></li>
         <li className="icon-item"><i className="fa-solid fa-phone"></i><a className="phone" href="tel:0041796097036">+41 79 609 70 36</a></li>
+        <li className="icon-item"><i className="fa-regular fa-user"></i><a className="user">Roman von Arb</a></li>
         {/* <li className="icon-item"><i className="fa-brands fa-instagram"></i><a className="insta">rova_coaching</a></li> */}
         </ul>
         {/* <div class="map-responsive">
