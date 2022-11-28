@@ -13,7 +13,7 @@ function Coaching(){
       <Header />
       <NavPages />
       <div className="hero">
-        <h1 className="hero-title">Meine Beratung</h1>
+        <h1 className="hero-title">Mein Mentaltraining</h1>
       </div>
       <div className="hero-img">
         <div id="image-mental"></div>
@@ -33,14 +33,14 @@ function Coaching(){
         </div>
       </div>
       <div className="subtitle-container">
-        <h3 className="subtitle">Dann hilft dir meine Beratung</h3>
+        <h3 className="subtitle">Dann hilft dir mein Mentaltraining</h3>
       </div>
       <div className="youtube">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/3zYFWDJ26vM" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
       </div>
       <div className="beratung-content">
         <div className="beratung-container">
-        <h4 className="beratung-title">Ablauf der Beratung</h4>
+        <h4 className="beratung-title">Ablauf des Trainings</h4>
         <p className="beratung-text">Gemeinsam untersuchen wir dein Thema und kommen so zu einer objektiven, klaren Sichtweise.
           Zusammen finden wir Lösungen, um deine Wünsche und Ziele zu erreichen. Systematisch und
           akribisch arbeiten wir dann auf deine Ziele hin.</p>
@@ -48,8 +48,8 @@ function Coaching(){
           die Gelegenheit, durchzuatmen.</p>
         </div>
         <div className="beratung-container">
-        <h4 className="beratung-title">Die Art der Beratung</h4>
-        <p className="beratung-text">In meiner Beratung kannst du sein, wie du bist. Ich schenke dir bedingungslose Wertschätzung und
+        <h4 className="beratung-title">Die Art des Trainings</h4>
+        <p className="beratung-text">In meinem Mentaltraining kannst du sein, wie du bist. Ich schenke dir bedingungslose Wertschätzung und
           bin empathisch. Ich sehe nicht die Unzulänglichkeiten der Menschen, sondern deren Stärken. Aktiv
           höre ich dir zu und du hast die Möglichkeit, alles, was dich beschäftigt, zu teilen und loszuwerden.</p>
         <p className="beratung-text">Ich gestalte die Beratung kreativ und passe sie individuell auf dich an. So machen wir zusammen
@@ -57,7 +57,7 @@ function Coaching(){
         </div>
       </div>
         <div className="beratung-beispiele">
-        <h4 className="beratung-title-beispiele">Beispiele in der meine Beratung helfen kann</h4>
+        <h4 className="beratung-title-beispiele">Beispiele in der mein Mentaltraining helfen kann</h4>
         <div className='list'>
         <ul className="beratung-beispiele-list">
           <li className="beratung-beispiele-item">Aus dem alten Schema ausbrechen und eine gedeihliche Zukunft antreten</li>
