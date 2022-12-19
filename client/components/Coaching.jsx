@@ -36,7 +36,7 @@ function Coaching(){
         <h3 className="subtitle">Dann hilft dir mein Mentaltraining</h3>
       </div>
       <div className="youtube">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3zYFWDJ26vM" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9pEvDWimbbU~" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
       </div>
       <div className="beratung-content">
         <div className="beratung-container">
