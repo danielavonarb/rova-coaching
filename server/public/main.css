@@ -132,6 +132,7 @@ p{
   grid-area: training;
   background-color: rgb(248, 213,72);
   width: 100%;
+  text-align: center;
 }
 
 #about{

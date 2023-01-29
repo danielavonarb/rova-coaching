@@ -13,7 +13,8 @@ function Coaching(){
       <Header />
       <NavPages />
       <div className="hero">
-        <h1 className="hero-title">Mein Mentaltraining</h1>
+        <h1 className="hero-title">Psychosoziale Beratung
+          und Mentaltraining</h1>
       </div>
       <div className="hero-img">
         <div id="image-mental"></div>
@@ -23,7 +24,7 @@ function Coaching(){
           <p className="text-box-p">Du wünschst dir ein ausgeglichenes und aktives Leben?</p>
         </div>
         <div className="text-box-2">
-          <p className="text-box-p">Du hast eine schwierige Situation, die du verändern möchtest?</p>
+          <p className="text-box-p">Du hast eine Krise zu überwinden?</p>
         </div>
         <div className="text-box-3">
           <p className="text-box-p">Du möchtest lernen, wie du dich effektiv entspannen kannst?</p>
@@ -33,44 +34,63 @@ function Coaching(){
         </div>
       </div>
       <div className="subtitle-container">
-        <h3 className="subtitle">Dann hilft dir mein Mentaltraining</h3>
+        <h3 className="subtitle">Dann hilft dir meine Psychosoziale Beratung und mein Mentaltraining</h3>
       </div>
       <div className="youtube">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/9pEvDWimbbU" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
       </div>
       <div className="beratung-content">
         <div className="beratung-container">
-        <h4 className="beratung-title">Ablauf des Trainings</h4>
-        <p className="beratung-text">Gemeinsam untersuchen wir dein Thema und kommen so zu einer objektiven, klaren Sichtweise.
-          Zusammen finden wir Lösungen, um deine Wünsche und Ziele zu erreichen. Systematisch und
-          akribisch arbeiten wir dann auf deine Ziele hin.</p>
-        <p className="beratung-text">Dabei unterstütze und motiviere ich dich tatkräftig und falls du einen Rückzug brauchst, biete ich dir
-          die Gelegenheit, durchzuatmen.</p>
+        <h4 className="beratung-title">Ablauf der Beratung und des Trainings</h4>
+        <p className="beratung-text">Gemeinsam erforschen wir dein Thema und kommen so zu einer
+          objektiven und klaren Sichtweise. Zusammen finden wir Lösungen, um
+          deine Wünsche und Ziele zu erreichen. Systematisch und akribisch
+          arbeiten wir dann auf deine Ziele hin. Sehr gerne begleite ich dich auf
+          deinem Weg.</p>
+        <p className="beratung-text">Dabei unterstütze und motiviere ich dich tatkräftig. Falls du eine Phase des
+          Innehaltens benötigst, biete ich dir die Gelegenheit, durchzuatmen.</p>
         </div>
         <div className="beratung-container">
-        <h4 className="beratung-title">Die Art des Trainings</h4>
-        <p className="beratung-text">In meinem Mentaltraining kannst du sein, wie du bist. Ich schenke dir bedingungslose Wertschätzung und
-          bin empathisch. Ich sehe nicht die Unzulänglichkeiten der Menschen, sondern deren Stärken. Aktiv
-          höre ich dir zu und du hast die Möglichkeit, alles, was dich beschäftigt, zu teilen und loszuwerden.</p>
-        <p className="beratung-text">Ich gestalte die Beratung kreativ und passe sie individuell auf dich an. So machen wir zusammen
-          interessante Übungen, die dir helfen, dein Leben so zu kreieren, wie du es dir wünschst.</p>
+        <h4 className="beratung-title">Die Art der Beratung und des Trainings</h4>
+        <p className="beratung-text">In meiner Beratung darfst du authentisch, offen und hemmungslos sein
+          und dich frei und entspannt fühlen. Ich schenke dir bedingungslose
+          Wertschätzung und bin empathisch. Aktives Zuhören ist eine
+          Kernkompetenz von mir und du hast die Möglichkeit, alles was dich
+          beschäftigt, zu teilen und loszuwerden.</p>
+        <p className="beratung-text">Ich gestalte die Beratung kreativ und passe sie deinen Bedürfnissen
+          individuell auf dich an. So machen wir zusammen interessante Übungen,
+          die dir helfen, dein Leben in herausfordernden Situationen zu meistern.<br></br><br></br>
+          
+          Der Geist und Körper wirken wechselseitig aufeinander, darum arbeiten
+          wir auf kognitiver- und körperlicher Ebene. So erreichen wir ein
+          ganzheitliches und optimales Programm.<br></br><br></br>
+          
+          Die Beratungen finden nicht nur in meiner Praxis, sondern auch draussen
+          in der Natur statt. So machen wir Übungen an einem Strand an der Emme
+          oder im Wald und so kannst du die inspirierende Wirkung der Natur auf
+          dich wirken lassen.</p>
         </div>
       </div>
         <div className="beratung-beispiele">
-        <h4 className="beratung-title-beispiele">Beispiele in der mein Mentaltraining helfen kann</h4>
+        <h4 className="beratung-title-beispiele">Beispiele in der meine Beratung helfen kann</h4>
         <div className='list'>
         <ul className="beratung-beispiele-list">
+          <li className="beratung-beispiele-item">Kriesenbewältigung</li>
           <li className="beratung-beispiele-item">Aus dem alten Schema ausbrechen und eine gedeihliche Zukunft antreten</li>
-          <li className="beratung-beispiele-item">Träume und Ziele angehen</li>
+          <li className="beratung-beispiele-item">Träume und Ziele verwirklichen</li>
           <li className="beratung-beispiele-item">Tiefliegende Wünsche aufdecken und diese fördern</li>
           <li className="beratung-beispiele-item">Schwierige Entscheidungen treffen</li>
           <li className="beratung-beispiele-item">Blockaden aufdecken und diese lösen</li>
+          <li className="beratung-beispiele-item">Negative Gedanken loswerden</li>
+          <li className="beratung-beispiele-item">Resilienz aufbauen</li>
         </ul>
         <ul className="beratung-beispiele-list">
         <li className="beratung-beispiele-item">Herausforderungen mutig und entspannt anpacken</li>
-          <li className="beratung-beispiele-item">Zweifel ablegen und Selbstvertrauen gewinnen</li>
-          <li className="beratung-beispiele-item">Lernen, wie man sich entspannt und gelassener wird</li>
-          <li className="beratung-beispiele-item">Den Zugang zu deinen Ressourcen finden</li>
+          <li className="beratung-beispiele-item">Selbstvertrauen gewinnen</li>
+          <li className="beratung-beispiele-item">Individuelles, angepasstes Stressmanagement</li>
+          <li className="beratung-beispiele-item">Entspannung und Gelassenheit</li>
+          <li className="beratung-beispiele-item">Den Zugang zu deinen Ressourcen finden und diese fördern</li>
+          <li className="beratung-beispiele-item">Tiefliegende Wünsche aufdecken und diese realisieren</li>
         </ul>
         </div>
         </div>
