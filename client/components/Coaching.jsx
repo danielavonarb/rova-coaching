@@ -13,7 +13,7 @@ function Coaching(){
       <Header />
       <NavPages />
       <div className="hero">
-        <h1 className="hero-title">Psychosoziale Beratung
+        <h1 className="hero-title" id="hero-training">Psychosoziale Beratung<br></br>
           und Mentaltraining</h1>
       </div>
       <div className="hero-img">

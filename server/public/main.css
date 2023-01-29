@@ -414,6 +414,10 @@ p{
     height: fit-content;
   
   }
+
+  #hero-training{
+    font-size: 1.5rem;
+  }
   
   .hero-img{
     grid-area: hero-img;
@@ -537,6 +541,10 @@ p{
       background-size: cover;
       background-position: center;
     }
+
+    #hero-training{
+      font-size: 1.5rem;
+    }
   
   .hero-title{
     font-size: 2rem;
@@ -637,6 +645,10 @@ p{
     background-size: cover;
     background-position: top;
   }
+
+  #hero-training{
+    font-size: 1.2rem;
+  }
   
   .hero-title{
     font-size: 1.3rem;
@@ -676,6 +688,13 @@ p{
 
   .nav__link{
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 300px) {
+
+  #hero-training{
+    font-size: 1rem;
   }
 
 }
