@@ -78,7 +78,6 @@ function Coaching(){
           <li className="beratung-beispiele-item">Kriesenbewältigung</li>
           <li className="beratung-beispiele-item">Aus dem alten Schema ausbrechen und eine gedeihliche Zukunft antreten</li>
           <li className="beratung-beispiele-item">Träume und Ziele verwirklichen</li>
-          <li className="beratung-beispiele-item">Tiefliegende Wünsche aufdecken und diese fördern</li>
           <li className="beratung-beispiele-item">Schwierige Entscheidungen treffen</li>
           <li className="beratung-beispiele-item">Blockaden aufdecken und diese lösen</li>
           <li className="beratung-beispiele-item">Negative Gedanken loswerden</li>
